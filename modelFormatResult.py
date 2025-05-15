@@ -78,6 +78,7 @@ def main():
     output_file = "modelFormatResult.txt"
     
     all_tables = []
+    total_countNum = 0
     
     try:
         with open(input_file, 'r', encoding='utf-8') as f_in:
@@ -89,6 +90,7 @@ def main():
                 if parsed_data:
                     table_str = format_entry_to_table(parsed_data)
                     all_tables.append(table_str)
+                    total_countNum += int(parsed_data['countNum'])
     except FileNotFoundError:
         print(f"Error: Input file '{input_file}' not found.")
         return
@@ -96,6 +98,7 @@ def main():
     try:
         with open(output_file, 'w', encoding='utf-8') as f_out:
             f_out.write("\n\n\n".join(all_tables))
+            f_out.write(f"\n\n\nTotal countNum: {total_countNum}")
         print(f"Successfully formatted data and wrote to '{output_file}'")
     except IOError:
         print(f"Error: Could not write to output file '{output_file}'.")
