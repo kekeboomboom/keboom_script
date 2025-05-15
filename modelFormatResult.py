@@ -74,7 +74,7 @@ def format_entry_to_table(entry):
     return "\n".join(lines)
 
 def main():
-    input_file = "剪辑模型统计结果.csv"
+    input_file = "编程模型结果.csv"
     output_file = "modelFormatResult.txt"
     
     all_tables = []

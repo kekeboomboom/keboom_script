@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class ModelSplitResult {
+
+    
+
+    public static void main(String[] args) {
+        Map<String, String> map = getModelNameMap();
+        // Example of how to use the map: Print all entries
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println("Task: \"" + entry.getKey() + "\" -> Series: \"" + entry.getValue() + "\"");
+        }
+        // You can also get a specific model series like this:
+        // String specificTask = "骏伯-u241 0429_bc 编程.csv";
+        // System.out.println("Model for " + specificTask + ": " + map.get(specificTask));
+    }
+} 
