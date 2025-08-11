@@ -9,6 +9,13 @@ def get_model_series(task_name):
     The patterns are ordered from most specific to most general to ensure correct matching.
     """
     patterns = [
+        # Custom overrides for Uncategorized items requested by user
+        # Map specific jj series
+        (re.compile(r'jj_A\d+'), 'jj_A'),  # e.g., jj_A01_* -> jj_A
+        # Map Y-series for dates 0725/0726/0727 to jj_Y
+        (re.compile(r'xm_jj_Y\d+_072[5-7]'), 'jj_Y'),
+        # Map jy-series for dates 0716 and 0724 to jj_jy
+        (re.compile(r'xm_jj_jy_07(16|24)'), 'jj_jy'),
         # lt_LKltjja Series (e.g., lt_LKltjja20-3)
         (re.compile(r'lt_LKltjja[\d-]+'), 'full_match'),
         # lt_LXjja Series (e.g., lt_LXjja25-1, lt_LXjja25-2)

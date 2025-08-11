@@ -4,80 +4,207 @@ import java.util.Map;
 public class ModelSplitResult {
     public static Map<String, String> getModelNameMap() {
         Map<String, String> modelNameMap = new HashMap<>();
-        
-        // Series: LXd10
-        modelNameMap.put("骏伯-LXd10-1_0531 借贷.csv", "LXd10");
-        modelNameMap.put("骏伯-LXd10-1_0601 借贷.csv", "LXd10");
-        modelNameMap.put("骏伯-LXd10-1_0602 借贷.csv", "LXd10");
-        modelNameMap.put("骏伯-LXd10-2_0531 借贷.csv", "LXd10");
-        modelNameMap.put("骏伯-LXd10-2_0601 借贷.csv", "LXd10");
-        modelNameMap.put("骏伯-LXd10-2_0602 借贷.csv", "LXd10");
-        
-        // Series: LXda11
-        modelNameMap.put("骏伯-LXda11-1_0615-zad 借贷.csv", "LXda11");
-        modelNameMap.put("骏伯-LXda11-1_0616-zad 借贷.csv", "LXda11");
-        
-        // Series: u258
-        modelNameMap.put("骏伯-u258 0617_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0530_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0603_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0604_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0605_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0606_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0609_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0610_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0611_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0612_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0613_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0614_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0615_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0616_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0618_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0619_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0620_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0621_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0622_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0623_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0624_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0625_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0626_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0627_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0628_zad 借贷.csv", "u258");
-        modelNameMap.put("骏伯-u258_0629_zad 借贷.csv", "u258");
-        
-        // Series: x210
-        modelNameMap.put("骏伯-x210_0604_zad 借贷.csv", "x210");
-        modelNameMap.put("骏伯-x210_0605_zad 借贷.csv", "x210");
-        modelNameMap.put("骏伯-x210_0606_zad借贷.csv", "x210");
-        
+
+        // Series: LKjja20-3
+        modelNameMap.put("骏伯-LKjja20-3_0630 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0701 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0702 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0704 剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0706 剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0707 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0708 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0709 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0710 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0711 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0712 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0713 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0714 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0716 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0717 讲真剪辑.csv", "LKjja20-3");
+        modelNameMap.put("骏伯-LKjja20-3_0718 讲真剪辑.csv", "LKjja20-3");
+
+        // Series: LKjja22-2
+        modelNameMap.put("骏伯-LKjja22-2n_0717 讲真剪辑.csv", "LKjja22-2");
+        modelNameMap.put("骏伯-LKjja22-2n_0718 讲真剪辑.csv", "LKjja22-2");
+
+        // Series: LKjja22-2-13
+        modelNameMap.put("骏伯-LKjja22-2-13_0717 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0718 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0719 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0720 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0723 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0724 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0725 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0726 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0727 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0728 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0729 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_0730 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_lt_0721 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_lt_0722 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_yd_0721 讲真剪辑.csv", "LKjja22-2-13");
+        modelNameMap.put("骏伯-LKjja22-2-13_yd_0722 讲真剪辑.csv", "LKjja22-2-13");
+
+        // Series: LKjja22-2-9
+        modelNameMap.put("骏伯-LKjja22-2-9_0717 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0718 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0719 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0720 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0721 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0722 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0723 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0724 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0725 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0726 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0727 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0728 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0729 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9_0730 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9n_0720 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9n_0721 讲真剪辑.csv", "LKjja22-2-9");
+        modelNameMap.put("骏伯-LKjja22-2-9n_0722 讲真剪辑.csv", "LKjja22-2-9");
+
+        // Series: LKjja24
+        modelNameMap.put("骏伯-LKjja24n_0719 讲真剪辑.csv", "LKjja24");
+        modelNameMap.put("骏伯-LKjja24n_0720 讲真剪辑.csv", "LKjja24");
+        modelNameMap.put("骏伯-LKjja24n_0721 讲真剪辑.csv", "LKjja24");
+        modelNameMap.put("骏伯-LKjja24n_0722 讲真剪辑.csv", "LKjja24");
+
+        // Series: LKjja24-1
+        modelNameMap.put("骏伯-LKjja24-1_0717 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0718 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0720 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0721 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0722 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0724 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0725 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0726 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0727 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0728 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0729 讲真剪辑.csv", "LKjja24-1");
+        modelNameMap.put("骏伯-LKjja24-1_0730 讲真剪辑.csv", "LKjja24-1");
+
+        // Series: LKjja26
+        modelNameMap.put("骏伯-LKjja26n_0717 讲真剪辑.csv", "LKjja26");
+        modelNameMap.put("骏伯-LKjja26n_0718 讲真剪辑.csv", "LKjja26");
+
+        // Series: LKjja28-2
+        modelNameMap.put("骏伯-LKjja28-2_0717 讲真剪辑.csv", "LKjja28-2");
+        modelNameMap.put("骏伯-LKjja28-2_0718 讲真剪辑.csv", "LKjja28-2");
+
+        // Series: LKjja28-3
+        modelNameMap.put("骏伯-LKjja28-3_0717 讲真剪辑.csv", "LKjja28-3");
+        modelNameMap.put("骏伯-LKjja28-3_0718 讲真剪辑.csv", "LKjja28-3");
+
+        // Series: jj_A
+        modelNameMap.put("骏伯-jj_A01_剪辑.csv", "jj_A");
+
+        // Series: jj_Y
+        modelNameMap.put("骏伯-xm_jj_Y005_0725 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y005_0726 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y005_0727 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y006_0725 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y006_0726 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y006_0727 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y007_0725 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y007_0726 讲真剪辑.csv", "jj_Y");
+        modelNameMap.put("骏伯-xm_jj_Y007_0727 讲真剪辑.csv", "jj_Y");
+
+        // Series: jj_jy
+        modelNameMap.put("骏伯-xm_jj_jy_0716 讲真剪辑.csv", "jj_jy");
+        modelNameMap.put("骏伯-xm_jj_jy_0716 讲真剪辑.xlsx", "jj_jy");
+        modelNameMap.put("骏伯-xm_jj_jy_0724 讲真剪辑.csv", "jj_jy");
+        modelNameMap.put("骏伯-xm_jj_jy_0724 讲真剪辑.xlsx", "jj_jy");
+
+        // Series: rt_dj
+        modelNameMap.put("骏伯-rt_dj_0630 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0701 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0702 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0703 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0704 剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0705 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0706 剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0708 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0709 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0710 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0711 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0712 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0713 讲真剪辑.csv", "rt_dj");
+        modelNameMap.put("骏伯-rt_dj_0714 讲真剪辑.csv", "rt_dj");
+
+        // Series: u244
+        modelNameMap.put("骏伯-u244_0630_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0701_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0703_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0703_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0705_jj 剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0706_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_07071_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0707_jj 剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0709_jj 剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0710_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0711_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0712_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0713_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0714_jj 讲真剪辑.csv", "u244");
+        modelNameMap.put("骏伯-u244_0716_jj 讲真剪辑.csv", "u244");
+
+        // Series: u260
+        modelNameMap.put("骏伯-u260_0630_jj 讲真剪辑.csv", "u260");
+        modelNameMap.put("骏伯-u260_0701_jj 讲真剪辑.csv", "u260");
+        modelNameMap.put("骏伯-u260_0702_jj 讲真剪辑.csv", "u260");
+
+        // Series: u269
+        modelNameMap.put("骏伯-u269_0630_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0701_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0702_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0703_jj讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0705_jj 剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0707_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0708_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0709_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0710_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0711_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0712_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0713_jj 讲真剪辑.csv", "u269");
+        modelNameMap.put("骏伯-u269_0714_jj 讲真剪辑.csv", "u269");
+
+        // Series: u272
+        modelNameMap.put("骏伯-u272_0703_jj 讲真剪辑.csv", "u272");
+
+        // Series: u273
+        modelNameMap.put("骏伯-u273_0703_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0703_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0705_jj 剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0706_jj 剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_07071_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0707_jj 剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0708_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0709_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0710_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0711_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0712_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0713_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0714_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0715_jj 讲真剪辑.csv", "u273");
+        modelNameMap.put("骏伯-u273_0716_jj 讲真剪辑.csv", "u273");
+
+        // Series: u276
+        modelNameMap.put("骏伯-u276_0707_jj 剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0708_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0709_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0710_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0711_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0712_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0713_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0714_jj 讲真剪辑.csv", "u276");
+        modelNameMap.put("骏伯-u276_0716_jj 讲真剪辑.csv", "u276");
+
         return modelNameMap;
     }
-    
+
     public static void main(String[] args) {
         Map<String, String> modelMap = getModelNameMap();
         System.out.println("Total mappings: " + modelMap.size());
-        
-        // Print sample mappings
-        System.out.println("\nSample mappings:");
-        int count = 0;
-        for (Map.Entry<String, String> entry : modelMap.entrySet()) {
-            if (count < 5) {
-                System.out.println(entry.getKey() + " -> " + entry.getValue());
-                count++;
-            } else {
-                break;
-            }
-        }
-        
-        // Print series distribution
-        System.out.println("\nSeries distribution:");
-        Map<String, Integer> seriesCount = new HashMap<>();
-        for (String series : modelMap.values()) {
-            seriesCount.put(series, seriesCount.getOrDefault(series, 0) + 1);
-        }
-        
-        for (Map.Entry<String, Integer> entry : seriesCount.entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue() + " tasks");
-        }
     }
-} 
+}
