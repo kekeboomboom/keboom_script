@@ -9,6 +9,9 @@ def get_model_series(task_name):
     The patterns are ordered from most specific to most general to ensure correct matching.
     """
     patterns = [
+        # Explicit groups for xm_jj and gzy (should take precedence)
+        (re.compile(r'yx_gzy_jj'), 'gzy'),      # e.g., yx_gzy_jj_* -> gzy
+        (re.compile(r'xm_jj'), 'xm_jj'),        # e.g., xm_jj_* -> xm_jj
         # Custom overrides for Uncategorized items requested by user
         # Map specific jj series
         (re.compile(r'jj_A\d+'), 'jj_A'),  # e.g., jj_A01_* -> jj_A

@@ -1,5 +1,5 @@
 import re
-import ast
+import argparse
 
 def parse_csv_line(line):
     """
@@ -73,9 +73,7 @@ def format_entry_to_table(entry):
     
     return "\n".join(lines)
 
-def main():
-    input_file = "剪辑模型统计结果.csv"
-    output_file = "剪辑模型统计结果_formatted.txt"
+def main(input_file: str, output_file: str):
     
     all_tables = []
     total_countNum = 0
@@ -103,5 +101,12 @@ def main():
     except IOError:
         print(f"Error: Could not write to output file '{output_file}'.")
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Format model statistics CSV into tables")
+    parser.add_argument("-i", "--input", default="剪辑模型统计结果.csv", help="Input CSV file")
+    parser.add_argument("-o", "--output", default="剪辑模型统计结果_formatted.txt", help="Output formatted text file")
+    return parser.parse_args()
+
 if __name__ == "__main__":
-    main() 
+    args = parse_args()
+    main(args.input, args.output)

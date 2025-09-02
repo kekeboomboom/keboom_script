@@ -1,8 +1,5 @@
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:u271 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:u247 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:rz_bc countNum:1 areaCountMap: {西藏=0, 新疆=0, 北京=1}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:apbc1 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:LKjja20-3 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:u264 countNum:694 areaCountMap: {西藏=44, 新疆=255, 北京=395}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:u241 countNum:2 areaCountMap: {西藏=0, 新疆=2, 北京=0}
-companyId: 31, industryId: 29, startDate: 2025-07-01 00:00:00, endDate: 2025-07-31 00:00:00, modelName:u263 countNum:35514 areaCountMap: {西藏=959, 新疆=12854, 北京=21701}
+companyId: 31, industryId: 29, startDate: 2025-08-01 00:00:00, endDate: 2025-08-31 00:00:00, modelName:bc countNum:1 areaCountMap: {西藏=0, 新疆=1, 北京=0}
+companyId: 31, industryId: 29, startDate: 2025-08-01 00:00:00, endDate: 2025-08-31 00:00:00, modelName:apbc1 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
+companyId: 31, industryId: 29, startDate: 2025-08-01 00:00:00, endDate: 2025-08-31 00:00:00, modelName:xm_bc_Y002 countNum:0 areaCountMap: {西藏=0, 新疆=0, 北京=0}
+companyId: 31, industryId: 29, startDate: 2025-08-01 00:00:00, endDate: 2025-08-31 00:00:00, modelName:u241 countNum:5 areaCountMap: {西藏=0, 新疆=5, 北京=0}
+companyId: 31, industryId: 29, startDate: 2025-08-01 00:00:00, endDate: 2025-08-31 00:00:00, modelName:u263 countNum:7038 areaCountMap: {西藏=236, 新疆=2798, 北京=4004}
